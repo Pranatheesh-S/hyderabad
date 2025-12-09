@@ -13,9 +13,9 @@ from tensorflow.keras import layers, models
 import json
 
 # ===== CONFIG =====
-BASE_DIR = os.path.join(os.getcwd(), "ESC-50-master")
-AUDIO_DIR = os.path.join(BASE_DIR, "audio")
-META_FILE = os.path.join(BASE_DIR, "meta", "esc50.csv")
+# BASE_DIR = os.path.join(os.getcwd(), "ESC-50-master")
+AUDIO_DIR = os.path.join("audio")
+META_FILE = os.path.join("meta", "esc50.csv")
 
 SAMPLE_RATE = 22050
 N_MELS = 128

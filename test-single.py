@@ -29,7 +29,7 @@ with open("class_mapping.json", "r") as f:
 
 # === CHANGE THIS to any esc-50 audio you want to test ===
 # BASE_DIR = os.path.join(os.getcwd(), "ESC-50-master")
-AUDIO_FILE = os.path.join("audio", "1-103995-A-30.wav")
+AUDIO_FILE = os.path.join("audio", "5-194899-B-3.wav")
 
 mel = extract_mel_spectrogram(AUDIO_FILE)
 mel = mel[np.newaxis, ..., np.newaxis]  # shape (1, 128, 216, 1)
